@@ -1,13 +1,11 @@
 .App {
   text-align: center;
 }
-button{
-  background-color: black;
-}
+
 .eventList{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 25px;
   grid-auto-rows: minmax(100px, auto);
 }
 
@@ -26,8 +24,7 @@ button{
 }
 #BigGame{
   background-image: url(https://ca-times.brightspotcdn.com/dims4/default/b8b8897/2147483647/strip/true/crop/5271x3513+0+0/resize/2000x1333!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F37%2Fa6%2F51b046fc481caae4553fa7878a71%2Fucla-california-football-44582.jpg);
-  background-size: 100%;
-  
+  background-size: 100%;  
 }
 
 #Movement{
@@ -47,7 +44,7 @@ button{
 }
 
 .App-header {
-  background-image: linear-gradient(to bottom right, yellow, blue);
+  background-image: linear-gradient(to bottom right, #f4e43d, rgb(59, 59, 255));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
