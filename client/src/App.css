@@ -1,10 +1,43 @@
 .App {
   text-align: center;
 }
+button{
+  background-color: black;
+}
+.eventList{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
 
+.eventObject{
+  padding:50px;
+  color:white;
+  font-weight:600;
+}
+.eventObject:hover{
+  opacity: 0.7;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+#BigGame{
+  background-image: url(https://ca-times.brightspotcdn.com/dims4/default/b8b8897/2147483647/strip/true/crop/5271x3513+0+0/resize/2000x1333!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F37%2Fa6%2F51b046fc481caae4553fa7878a71%2Fucla-california-football-44582.jpg);
+  background-size: 100%;
+  
+}
+
+#Movement{
+  background-image: url(https://gallaudet.edu/wp-content/uploads/2021/11/dance-group.jpg);
+  background-size: 100%;
+}
+#YerinBaek{
+  background-image: url(https://s1.ticketm.net/dam/a/922/469e91d6-698d-41c7-9b55-9891688ae922_1788931_TABLET_LANDSCAPE_LARGE_16_9.jpg);
+  background-repeat: no-repeat;
+  background-size: 125%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +47,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(to bottom right, yellow, blue);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
